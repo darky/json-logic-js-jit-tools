@@ -1,0 +1,33 @@
+{
+  "name": "json-logic-js-jit-tools",
+  "version": "0.1.0",
+  "description": "Additional tools for json-logic-js-jit",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:darky/json-logic-js-jit-tools.git"
+  },
+  "keywords": [
+    "jsonlogic",
+    "json",
+    "rule",
+    "logic",
+    "jit",
+    "tools"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "type": "module",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "json-logic-js-jit": "0.3.0"
+  },
+  "devDependencies": {
+    "uvu": "0.5.1"
+  },
+  "author": "Vladislav Botvin",
+  "license": "MIT"
+}
